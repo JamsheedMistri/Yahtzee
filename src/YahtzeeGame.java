@@ -67,7 +67,7 @@ public class YahtzeeGame {
 		}
 		
 		while (!scoreboard[answer - 1].select()) {
-			System.out.print ("You have already chosent this! Please try again. Enter a number: ");
+			System.out.print ("You have already chosen this! Please try again. Enter a number: ");
 			answer = TextIO.getlnInt();
 		}
 		
