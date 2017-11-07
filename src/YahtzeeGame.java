@@ -59,10 +59,10 @@ public class YahtzeeGame {
 			else System.out.print("     ");
 		}
 		
-		System.out.print("\n\nWhich would you like to keep? (choose number in parenthasis): ");
+		System.out.print("\n\nWhich would you like to keep? (choose number in parenthases): ");
 		int answer = TextIO.getlnInt();
 		while (answer < 1 || answer > 13) {
-			System.out.print("\nThat is not a valid number. Please choose a number in the parenthasis: ");
+			System.out.print("\nThat is not a valid number. Please choose a number in the parenthases: ");
 			answer = TextIO.getlnInt();
 		}
 		
